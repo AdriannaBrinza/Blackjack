@@ -9,6 +9,14 @@ public class Card {
         this.rank = rank;
     }
 
+    /* This constructor is not going to add additional fields to this class. We want to keep using the fields suit & rank. What we really want is to
+    translate from a String to an Enum. It happens that Enums have this ability built right into them and that's done with another method called
+    valueOf()   */
+    public Card(String suit, String rank) {
+        this.suit = Suit.valueOf(suit.toUpperCase());
+        this.rank = Rank.valueOf(rank.toUpperCase());
+    }
+
     public Suit getSuit() {
         return suit;
     }
@@ -28,9 +36,11 @@ public class Card {
     public static void main(String[] args) {
         Card card1 = new Card(Suit.CLUBS, Rank.KING);
         Card card2 = new Card(Suit.DIAMONDS, Rank.TEN);
+        Card card3 = new Card("hearts", "QUEEN");
 
         System.out.println(card1);
         System.out.println(card2);
+        System.out.println(card3);
         // int total = card1.plus(card2);
         // Hand myHand = new Hand();
         // myHand.add(card1)
