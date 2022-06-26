@@ -37,10 +37,12 @@ public class Card {
         Card card1 = new Card(Suit.CLUBS, Rank.KING);
         Card card2 = new Card(Suit.DIAMONDS, Rank.TEN);
         Card card3 = new Card("hearts", "QUEEN");
+        Card card4 = new Card("spades", "ACE");
 
         System.out.println(card1);
         System.out.println(card2);
         System.out.println(card3);
+        System.out.println(card4);
         // int total = card1.plus(card2);
         // Hand myHand = new Hand();
         // myHand.add(card1)
