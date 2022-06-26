@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itfactory.blackjack.RankTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-26T13:58:14" hostname="DESKTOP-7CPA1TN" time="0.0">
+  <properties/>
+  <testcase name="getValueOfKing()" classname="com.itfactory.blackjack.RankTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

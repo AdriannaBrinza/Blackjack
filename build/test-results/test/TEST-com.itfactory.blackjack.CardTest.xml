@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itfactory.blackjack.CardTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-06-26T13:58:14" hostname="DESKTOP-7CPA1TN" time="0.032">
+  <properties/>
+  <testcase name="canGetValueOfAThreeCard()" classname="com.itfactory.blackjack.CardTest" time="0.026"/>
+  <testcase name="canGetValueOfATwoCard()" classname="com.itfactory.blackjack.CardTest" time="0.001"/>
+  <testcase name="canGetValueOfAnAceCard()" classname="com.itfactory.blackjack.CardTest" time="0.001"/>
+  <testcase name="canGetValueOfAJackCard()" classname="com.itfactory.blackjack.CardTest" time="0.001"/>
+  <testcase name="canGetValueOfAKingCard()" classname="com.itfactory.blackjack.CardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
